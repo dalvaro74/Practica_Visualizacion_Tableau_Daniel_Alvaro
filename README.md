@@ -13,6 +13,8 @@ Al ser las condiciones de los particulares mas beneficiosas, se ha detectado un 
 
 Uno de los objetivos de nuestro analisis sera intentar identificar en que barrrios o zonas de Madrid hay anfitriones con un numero especialmente alto de propiedades en la plataforma que puedan hacernos sospechar que ese Anfitrion se corresponde realmente con una empresa (o con un multimillonario :stuck_out_tongue_winking_eye:)
 
+Nuestro Dashboard mostrara el numero de propiedades por Anfitrion en cada zona, asi como el promedio dentro de cada barrio para poder identificar por donde empezar nuestra busqueda de posibles fraudes.
+
 ### Proceso ETL 💾
 Para realizar un proceso basico de limpieza y eliminacion de ruido del dataset de Airbnb se llevan a cabo los siguientes filtros desde la Fuente de Datos de Tableau: 
 - **City:** Nos quedamos con los que contengan la palabra Madrid
@@ -34,7 +36,9 @@ La jerarquias generadas son las siguientes:
 Para poder trabajar mas comodamente con los datos y dar mayor claridad a las graficas se ha decido agrupar los Barrios(Neghbourhood) por Zonas: Centro, Norte, Sur, Este y Oeste 
 
 
-## Aclaraciones 📑
+## Otros datos de Interes 📑
+Para obtener el numero de pisos hemos utilizado un campo calculado con la siguiente formula:
 
+{ FIXED ([Host ID]):COUNT([Host ID])}
 
-
+Se ha incluido un filtro por zonas que permite concretar el analisis.
