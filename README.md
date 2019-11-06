@@ -23,18 +23,18 @@ Para realizar un proceso basico de limpieza y eliminacion de ruido del dataset d
 
 Una vez llevado a cabo este proceso de limpieza el numero de resgistros con los que vamos a trabaar son: **8.743**
 
-### Jerarquias 🔧
+### Jerarquias 🔢
 
 La jerarquias generadas son las siguientes:
 
 - **Jerarquia Geografica:** Country-City-ZipCode
 - **Jerarquia Propiedad:** Property Type-Room Type- Bed Type
 
-### Grupos
+### Grupos ⛲️
 Para poder trabajar mas comodamente con los datos y dar mayor claridad a las graficas se ha decido agrupar los Barrios(Neghbourhood) por Zonas: Centro, Norte, Sur, Este y Oeste 
 
 
-## Aclaraciones ✏️
+## Aclaraciones 📑
 
 
 
